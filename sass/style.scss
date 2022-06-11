@@ -7,13 +7,13 @@ img{
 }
 header{
     text-align: -webkit-center;
-    button{
-        height: 50px;
-        border-radius: 30px;
-        border-color: rgb(255, 255, 255);
-        background: linear-gradient(to bottom right,#FF79DA, #9356DC);
-        color: white;
-    }
+}
+button{
+    height: 50px;
+    border-radius: 30px;
+    border:none;
+    background: linear-gradient(to bottom right,#FF79DA, #9356DC);
+    color: white;
 }
 #logo{
     width: 60%;
@@ -35,6 +35,19 @@ header{
     background-color: rgb(246, 246, 246);
     padding: 5%;
 }
+ul{
+    list-style: none;
+  }
+  .number{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #9356DC;
+    background-color: #9356DC;
+    color: white;
+    text-align: center;
+    margin-left: -30px;
+  }
 .step{
     border: solid 1px transparent;
     border-radius: 20px;
@@ -51,6 +64,12 @@ header{
     }
 
 }
+.step:hover{
+    background-color: rgba(255,121,218,0.2);
+    i{
+        color: #9356DC;
+    }
+}
 #restaurant{
     background-color: rgb(246, 246, 246);
     padding: 50px 20px 50px 20px;
@@ -59,11 +78,29 @@ header{
     border:1px solid transparent;
     border-radius: 20px;
     background-color: white;
-    margin: 0 20px 20px 0;
+    margin: 10px 0 20px 0;
 
     img{
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+.new{
+    position: absolute;
+    color: green;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #99E2D0;
+}
+.resto_card:hover{
+    i{
+        color: transparent;
+        font-weight: bold;
+        background: -webkit-linear-gradient(top, #9356DC 0%, #FF79DA 100%);
+        -webkit-background-clip: text;
+
     }
 }
 .text_icon{
@@ -79,11 +116,18 @@ header{
     }
 }
 
+
 footer{
     background-color: rgb(53, 53, 53);
     color: white;
-    
+
     h2{
+        margin-top: 0;
+        padding-top: 20px;
         font-family: 'Shrikhand';
     }
+    ul{
+        list-style: none;
+    }
 }
+
