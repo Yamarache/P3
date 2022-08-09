@@ -1,0 +1,12 @@
+@media screen and (min-device-width: 420px) {
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .step_text {
+    margin-left: 20%;
+  }
+}
+
+/*# sourceMappingURL=TabletteIndex.css.map */

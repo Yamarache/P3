@@ -1,0 +1,32 @@
+@media screen and (min-device-width: 992px) {
+  img {
+    object-fit: none;
+  }
+
+  #fonctionnement li {
+    display: inline-block;
+    flex-direction: row;
+    width: 33%;
+  }
+  #fonctionnement .step_text {
+    margin-left: 0;
+  }
+  #fonctionnement ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  #restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-between;
+  }
+  #restaurant h2 {
+    width: 100%;
+  }
+  #restaurant .resto_card {
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=DesktopIndex.css.map */

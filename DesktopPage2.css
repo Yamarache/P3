@@ -1,0 +1,17 @@
+@charset "UTF-8";
+header .photo_resto {
+  max-height: 500px;
+}
+
+#menu_part2 {
+  display: flex;
+  place-content: space-around;
+}
+
+#plats, #entrées, #desserts {
+  width: -webkit-fill-available;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=DesktopPage2.css.map */

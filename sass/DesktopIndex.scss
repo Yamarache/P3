@@ -1,0 +1,39 @@
+@media screen and (min-device-width: 992px){
+
+    img{
+        object-fit: none;
+    }
+    #fonctionnement{
+
+        .step{
+        }
+        li{
+            display: inline-block;
+            flex-direction: row;
+            width: 33%;
+        }
+        .step_text{
+            margin-left: 0;
+        }
+        ul{
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    #restaurant{
+
+        display: flex;
+        flex-wrap: wrap;
+        place-content: space-between;
+
+        h2{
+            width: 100%;
+        }
+        .resto_card{
+            position: relative;
+        }
+
+    }
+}
+        

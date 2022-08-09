@@ -14,21 +14,32 @@ button{
     border:none;
     background: linear-gradient(to bottom right,#FF79DA, #9356DC);
     color: white;
+    padding: 0px 15px 0px 15px;
 }
 #logo{
-    width: 60%;
+    font-family: Shrikhand, sans-serif;
+    width: 100%;
+    font-size: xx-large;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    h1{
+        margin: 0;
+    }
 }
 #search_bar{
     background-color: rgb(234, 234, 234);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    margin-top: 5px;
+    height: 60px;
+    margin-top: 3px;
     color: rgb(53, 53, 53);
     #searchbar{
         background-color: rgb(234, 234, 234);
         border: none;
+        margin-left: 20px;
+    }
+    #searchbar::placeholder{
+        color: rgb(53, 53, 53);
     }
 }
 #text_header{
@@ -41,17 +52,20 @@ ul{
   .number{
     width: 30px;
     height: 30px;
-    border-radius: 15px;
-    border: 1px solid #9356DC;
+    border-radius: 30px;
     background-color: #9356DC;
     color: white;
     text-align: center;
     margin-left: -30px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
   }
 .step{
     border: solid 1px transparent;
     border-radius: 20px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 5px 15px rgb(175, 175, 175);
     display: flex;
     align-items: center;
     padding: 10px;
@@ -73,12 +87,20 @@ ul{
 #restaurant{
     background-color: rgb(246, 246, 246);
     padding: 50px 20px 50px 20px;
+    width: inherit;
+    a{
+        width: 49%;
+        color: black;
+        text-decoration: none;
+    }
 }
+
 .resto_card{
     border:1px solid transparent;
     border-radius: 20px;
     background-color: white;
     margin: 10px 0 20px 0;
+    width: 100%;
 
     img{
         border-top-left-radius: 20px;
@@ -89,6 +111,7 @@ ul{
 }
 .new{
     position: absolute;
+    right: 40px;
     color: green;
     padding: 5px;
     border-radius: 2px;
@@ -131,3 +154,7 @@ footer{
     }
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
